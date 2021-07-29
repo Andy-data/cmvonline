@@ -17,5 +17,5 @@ WORKDIR /home/site/wwwroot
 COPY . .
 EXPOSE 8050:80
 
-ENTRYPOINT [ "flask", "run" ]
+# ENTRYPOINT [ "flask", "run" ]
 # RUN python /home/site/wwwroot/CMV_online.py
